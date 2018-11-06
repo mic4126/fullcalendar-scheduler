@@ -1,7 +1,7 @@
 /*!
- * FullCalendar Scheduler v1.9.4
- * Docs & License: https://fullcalendar.io/scheduler/
- * (c) 2018 Adam Shaw
+ * <%= title %> v<%= version %>
+ * Docs & License: <%= homepage %>
+ * (c) <%= copyright %>
  */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
@@ -3918,7 +3918,7 @@ __webpack_require__(65);
 __webpack_require__(66);
 __webpack_require__(67);
 __webpack_require__(68);
-var schedulerVersion = '1.9.4';
+var schedulerVersion = '<%= version %>';
 exportHooks.schedulerVersion = schedulerVersion;
 /*
 When the required internal version is upped,
@@ -5795,7 +5795,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var $ = __webpack_require__(2);
 var moment = __webpack_require__(15);
 var exportHooks = __webpack_require__(0);
-var RELEASE_DATE = '2018-03-28'; // for Scheduler
+var RELEASE_DATE = '<%= releaseDate %>'; // for Scheduler
 var UPGRADE_WINDOW = { years: 1, weeks: 1 }; // 1 week leeway, for tz shift reasons too
 var LICENSE_INFO_URL = 'http://fullcalendar.io/scheduler/license/';
 var PRESET_LICENSE_KEYS = [

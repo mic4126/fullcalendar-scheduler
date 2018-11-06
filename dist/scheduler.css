@@ -1,7 +1,7 @@
 /*!
- * FullCalendar Scheduler v1.9.4
- * Docs & License: https://fullcalendar.io/scheduler/
- * (c) 2018 Adam Shaw
+ * <%= title %> v<%= version %>
+ * Docs & License: <%= homepage %>
+ * (c) <%= copyright %>
  */
 /* TODO: break this file up */
 /* Scroller
